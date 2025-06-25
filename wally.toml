@@ -1,0 +1,19 @@
+[package]
+name = "ldgerrits/replica"
+description = "Replica is a Roblox server to client state replication solution which lets the developer subscribe certain players to certain states."
+version = "1.0.0"
+license = "Apache-2.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = ["**"]
+include = [
+    "default.project.json",
+    "src",
+    "src/**",
+    "LICENSE",
+    "mkdocs.yml",
+    "README.md",
+    "wally.toml",
+]
+
+[dependencies]
